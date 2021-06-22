@@ -9,10 +9,10 @@ public class temp {
 
         HashSet<List<Integer>> temp = new HashSet<List<Integer>>();
 
-        temp.add(Arrays.asList(1,2,3));
+        temp.add(Arrays.asList(2,1,3));
         temp.add(Arrays.asList(1,2,3));
 
         System.out.println(temp.size());
-        System.out.println(Arrays.toString(nums));
+        // System.out.println(Arrays.toString(nums));
     }
 }
