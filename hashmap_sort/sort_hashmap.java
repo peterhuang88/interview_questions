@@ -13,9 +13,12 @@ public class sort_hashmap {
 		Comparator<Entry<Integer, String>> comp = new Comparator<Entry<Integer, String>>() {
 			@Override
 			public int compare(Entry<Integer, String> e1, Entry<Integer, String> e2) {
-				String v1 = e1.getKey().toString();
-				String v2 = e2.getKey().toString();
-				return v1.compareTo(v2);
+				// String v1 = e1.getKey().toString();
+				String v1 = e1.getValue();
+				// String v2 = e2.getKey().toString();
+				String v2 = e2.getValue();
+				// return v1.compareTo(v2);
+				return v2.compareTo(v1);
 			}
 		};
 
